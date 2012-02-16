@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11D50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Categoria" representedClassName="Categoria" syncable="YES">
+        <attribute name="id_cate" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_cate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orden_cate" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CodigoBarras" representedClassName="CodigoBarras" syncable="YES">
+        <attribute name="cod_cbar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagen_cbar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre_cbar" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Lista" representedClassName="Lista" syncable="YES">
+        <attribute name="fecha_list" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id_list" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_list" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Moneda" representedClassName="Moneda" syncable="YES">
+        <attribute name="id_mone" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_mone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simbolo_mone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Precio" representedClassName="Precio" syncable="YES">
+        <attribute name="cantidad_prec" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="fecha_prec" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="id_cate" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_mone" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_prod" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_tien" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_unid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="precio_prec" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Producto" representedClassName="Producto" syncable="YES">
+        <attribute name="id_cate" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_prod" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_prod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notas_prod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orden_prod" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Tienda" representedClassName="Tienda" syncable="YES">
+        <attribute name="coordenada_x" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="coordenada_y" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="direccion_tien" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_tien" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="logo_tien" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre_tien" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order_tien" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Unidad" representedClassName="Unidad" syncable="YES">
+        <attribute name="id_unid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_unid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CodigoBarras" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Categoria" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Producto" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Tienda" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="Moneda" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Unidad" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Precio" positionX="160" positionY="192" width="128" height="165"/>
+        <element name="Lista" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
