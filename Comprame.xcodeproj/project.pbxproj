@@ -14,7 +14,17 @@
 		65F25A0814E43C08006B4B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A0714E43C08006B4B26 /* main.m */; };
 		65F25A0C14E43C08006B4B26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A0B14E43C08006B4B26 /* AppDelegate.m */; };
 		65F25A0F14E43C08006B4B26 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F25A0D14E43C08006B4B26 /* MainStoryboard.storyboard */; };
-		65F25A1214E43C08006B4B26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A1114E43C08006B4B26 /* ViewController.m */; };
+		65F25A1914E43F1D006B4B26 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F25A1814E43F1D006B4B26 /* CoreData.framework */; };
+		65F25A1C14E43F56006B4B26 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A1A14E43F56006B4B26 /* CoreData.xcdatamodeld */; };
+		65F25A2014E44266006B4B26 /* Precio.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A1F14E44266006B4B26 /* Precio.m */; };
+		65F25A2314E44267006B4B26 /* Tienda.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A2214E44267006B4B26 /* Tienda.m */; };
+		65F25A2614E44267006B4B26 /* Unidad.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A2514E44267006B4B26 /* Unidad.m */; };
+		65F25A2914E44267006B4B26 /* Moneda.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A2814E44267006B4B26 /* Moneda.m */; };
+		65F25A2C14E44267006B4B26 /* Producto.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A2B14E44267006B4B26 /* Producto.m */; };
+		65F25A2F14E44267006B4B26 /* Lista.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A2E14E44267006B4B26 /* Lista.m */; };
+		65F25A3214E44267006B4B26 /* CodigoBarras.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A3114E44267006B4B26 /* CodigoBarras.m */; };
+		65F25A3514E44267006B4B26 /* Categoria.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A3414E44267006B4B26 /* Categoria.m */; };
+		65F25A3914E442D7006B4B26 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F25A3814E442D7006B4B26 /* CoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +32,33 @@
 		65F259FB14E43C08006B4B26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65F259FD14E43C08006B4B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65F259FF14E43C08006B4B26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		65F25A0314E43C08006B4B26 /* Comprame-Info.plist */ = {isa = PBXFileReference; path = "Comprame-Info.plist"; sourceTree = "<group>"; };
+		65F25A0314E43C08006B4B26 /* Comprame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Comprame-Info.plist"; sourceTree = "<group>"; };
 		65F25A0514E43C08006B4B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65F25A0714E43C08006B4B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		65F25A0914E43C08006B4B26 /* Comprame-Prefix.pch */ = {isa = PBXFileReference; path = "Comprame-Prefix.pch"; sourceTree = "<group>"; };
-		65F25A0A14E43C08006B4B26 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		65F25A0914E43C08006B4B26 /* Comprame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Comprame-Prefix.pch"; sourceTree = "<group>"; };
+		65F25A0A14E43C08006B4B26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65F25A0B14E43C08006B4B26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		65F25A0E14E43C08006B4B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		65F25A1014E43C08006B4B26 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		65F25A1114E43C08006B4B26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65F25A1814E43F1D006B4B26 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65F25A1B14E43F56006B4B26 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		65F25A1E14E44266006B4B26 /* Precio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Precio.h; sourceTree = "<group>"; };
+		65F25A1F14E44266006B4B26 /* Precio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Precio.m; sourceTree = "<group>"; };
+		65F25A2114E44267006B4B26 /* Tienda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tienda.h; sourceTree = "<group>"; };
+		65F25A2214E44267006B4B26 /* Tienda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tienda.m; sourceTree = "<group>"; };
+		65F25A2414E44267006B4B26 /* Unidad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unidad.h; sourceTree = "<group>"; };
+		65F25A2514E44267006B4B26 /* Unidad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unidad.m; sourceTree = "<group>"; };
+		65F25A2714E44267006B4B26 /* Moneda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moneda.h; sourceTree = "<group>"; };
+		65F25A2814E44267006B4B26 /* Moneda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moneda.m; sourceTree = "<group>"; };
+		65F25A2A14E44267006B4B26 /* Producto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Producto.h; sourceTree = "<group>"; };
+		65F25A2B14E44267006B4B26 /* Producto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Producto.m; sourceTree = "<group>"; };
+		65F25A2D14E44267006B4B26 /* Lista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lista.h; sourceTree = "<group>"; };
+		65F25A2E14E44267006B4B26 /* Lista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lista.m; sourceTree = "<group>"; };
+		65F25A3014E44267006B4B26 /* CodigoBarras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodigoBarras.h; sourceTree = "<group>"; };
+		65F25A3114E44267006B4B26 /* CodigoBarras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodigoBarras.m; sourceTree = "<group>"; };
+		65F25A3314E44267006B4B26 /* Categoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categoria.h; sourceTree = "<group>"; };
+		65F25A3414E44267006B4B26 /* Categoria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categoria.m; sourceTree = "<group>"; };
+		65F25A3714E442D7006B4B26 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		65F25A3814E442D7006B4B26 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F25A1914E43F1D006B4B26 /* CoreData.framework in Frameworks */,
 				65F259FC14E43C08006B4B26 /* UIKit.framework in Frameworks */,
 				65F259FE14E43C08006B4B26 /* Foundation.framework in Frameworks */,
 				65F25A0014E43C08006B4B26 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +96,7 @@
 		65F259FA14E43C08006B4B26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65F25A1814E43F1D006B4B26 /* CoreData.framework */,
 				65F259FB14E43C08006B4B26 /* UIKit.framework */,
 				65F259FD14E43C08006B4B26 /* Foundation.framework */,
 				65F259FF14E43C08006B4B26 /* CoreGraphics.framework */,
@@ -77,11 +107,11 @@
 		65F25A0114E43C08006B4B26 /* Comprame */ = {
 			isa = PBXGroup;
 			children = (
+				65F25A3614E4429D006B4B26 /* Core Data */,
+				65F25A1D14E44249006B4B26 /* Clases */,
 				65F25A0A14E43C08006B4B26 /* AppDelegate.h */,
 				65F25A0B14E43C08006B4B26 /* AppDelegate.m */,
 				65F25A0D14E43C08006B4B26 /* MainStoryboard.storyboard */,
-				65F25A1014E43C08006B4B26 /* ViewController.h */,
-				65F25A1114E43C08006B4B26 /* ViewController.m */,
 				65F25A0214E43C08006B4B26 /* Supporting Files */,
 			);
 			path = Comprame;
@@ -96,6 +126,39 @@
 				65F25A0914E43C08006B4B26 /* Comprame-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65F25A1D14E44249006B4B26 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				65F25A3314E44267006B4B26 /* Categoria.h */,
+				65F25A3414E44267006B4B26 /* Categoria.m */,
+				65F25A3014E44267006B4B26 /* CodigoBarras.h */,
+				65F25A3114E44267006B4B26 /* CodigoBarras.m */,
+				65F25A2D14E44267006B4B26 /* Lista.h */,
+				65F25A2E14E44267006B4B26 /* Lista.m */,
+				65F25A2A14E44267006B4B26 /* Producto.h */,
+				65F25A2B14E44267006B4B26 /* Producto.m */,
+				65F25A2714E44267006B4B26 /* Moneda.h */,
+				65F25A2814E44267006B4B26 /* Moneda.m */,
+				65F25A2414E44267006B4B26 /* Unidad.h */,
+				65F25A2514E44267006B4B26 /* Unidad.m */,
+				65F25A2114E44267006B4B26 /* Tienda.h */,
+				65F25A2214E44267006B4B26 /* Tienda.m */,
+				65F25A1E14E44266006B4B26 /* Precio.h */,
+				65F25A1F14E44266006B4B26 /* Precio.m */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
+		65F25A3614E4429D006B4B26 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				65F25A1A14E43F56006B4B26 /* CoreData.xcdatamodeld */,
+				65F25A3714E442D7006B4B26 /* CoreDataManager.h */,
+				65F25A3814E442D7006B4B26 /* CoreDataManager.m */,
+			);
+			name = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +225,16 @@
 			files = (
 				65F25A0814E43C08006B4B26 /* main.m in Sources */,
 				65F25A0C14E43C08006B4B26 /* AppDelegate.m in Sources */,
-				65F25A1214E43C08006B4B26 /* ViewController.m in Sources */,
+				65F25A1C14E43F56006B4B26 /* CoreData.xcdatamodeld in Sources */,
+				65F25A2014E44266006B4B26 /* Precio.m in Sources */,
+				65F25A2314E44267006B4B26 /* Tienda.m in Sources */,
+				65F25A2614E44267006B4B26 /* Unidad.m in Sources */,
+				65F25A2914E44267006B4B26 /* Moneda.m in Sources */,
+				65F25A2C14E44267006B4B26 /* Producto.m in Sources */,
+				65F25A2F14E44267006B4B26 /* Lista.m in Sources */,
+				65F25A3214E44267006B4B26 /* CodigoBarras.m in Sources */,
+				65F25A3514E44267006B4B26 /* Categoria.m in Sources */,
+				65F25A3914E442D7006B4B26 /* CoreDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +348,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65F25A1A14E43F56006B4B26 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65F25A1B14E43F56006B4B26 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 65F25A1B14E43F56006B4B26 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 65F259EE14E43C07006B4B26 /* Project object */;
 }
