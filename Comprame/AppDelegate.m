@@ -17,6 +17,7 @@
     // Override point for customization after application launch.
     return YES;
     //agil agil
+    //cperez cperez
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
