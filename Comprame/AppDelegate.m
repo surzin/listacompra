@@ -18,8 +18,7 @@
     // Override point for customization after application launch.
     return YES;
     //agil agil
-    //cperez cperez
-    //comentario tonto
+    // nueva rama
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
