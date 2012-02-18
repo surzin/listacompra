@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 // opewifpdsjkkljlfs
+@property (strong,nonatomic) NSNumber *prueba;
+
 @end
