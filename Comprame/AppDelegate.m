@@ -11,7 +11,7 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize prueba;
+@synthesize prueba; // esto es un cambio en mi rama
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
