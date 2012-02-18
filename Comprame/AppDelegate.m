@@ -18,6 +18,7 @@
     return YES;
     //agil agil
     //cperez cperez
+    //comentario tonto
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
